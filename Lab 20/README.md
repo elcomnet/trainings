@@ -12,6 +12,6 @@ docker-compose up -d
 
 2. Uruchom klaster Apache Kafka (opcjonalnie)
 ```
-cd compose_kafka
+cd kafka_compose
 docker-compose up -d
 ``` 
