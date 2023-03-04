@@ -43,3 +43,8 @@ Istnieje możliwość zmiany parametrów zgodnie z listę na stronie https://doc
 sudo docker update --memory 256M internal-wordpress
 sudo docker update --restart always internal-wordpress
 ```
+
+8. Wyświetl logi kontenera internal-wordpress
+```
+sudo docker logs internal-wordpress
+```
