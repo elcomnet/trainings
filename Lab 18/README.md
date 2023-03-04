@@ -10,6 +10,8 @@ Do jego wykonania będzie potrzebne prywatne konto na Docker Hub
 - Wybierz 'Visibility': Private
 - Kliknij 'Create'
 
+![Private Repo Docker Hub](docker_hub_private_registry.png)
+
 2. Utwórz wersje obrazu dla DockerHub
 ```
 sudo docker tag web-training-app <user_name_docker_hub>/web-training-app:latest
