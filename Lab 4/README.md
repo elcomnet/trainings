@@ -48,3 +48,10 @@ sudo docker update --restart always internal-wordpress
 ```
 sudo docker logs internal-wordpress
 ```
+
+9. Wyświetl eventy dla kontenera internal-wordpress
+```
+sudo docker events --filter 'container=internal-wordpress'
+```
+
+
