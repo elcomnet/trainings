@@ -39,3 +39,7 @@ sudo docker image rm python:3.11.1-alpine3.16
 sudo docker image rm -f <ID>
 ```
 
+8. Wyświetl manifest obrazu node:18.14.2
+```
+sudo docker manifest inspect node:18.14.2
+```
