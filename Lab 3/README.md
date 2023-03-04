@@ -27,12 +27,12 @@ sudo docker ps -a
 
 6. Trzeci kontener
 ```
-sudo docker run -it --name ubuntu ubuntu:20.04
+sudo docker run -dit --name ubuntu ubuntu:20.04
 ```
 
 7. Wejdź do kontenera
 ```
-sudo docker exec -it ubuntu /bin/bas
+sudo docker exec -dit ubuntu /bin/bas
 ```
 Wykonaj kilka poleceń Linuxowych:
 - ls
