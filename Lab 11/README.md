@@ -21,12 +21,28 @@ sudo docker run -d --name flask -p 5000:5000 flask-app:latest
 curl localhost:5000
 ```
 
-5. Poszukaj kontenera flask-app na podstawie nazwy
+5. Poszukaj kontenera flask na podstawie nazwy
 ```
-sudo docker ps -a --filter "name=flask-app"
+sudo docker ps -a --filter "name=flask"
 ```
 
-6. Poszukaj kontenera flask-app na podstawie LABEL ustawionej w pliku Dockerfile
+6. Poszukaj kontenera flask na podstawie LABEL ustawionej w pliku Dockerfile
 ```
 sudo docker ps -a --filter "label=engine=python"
 ```
+
+7. Poszukaj obrazu flask-app na podstawie LABEL ustawionej w pliku Dockerfile
+```
+sudo docker images --filter "label=engine=python"
+``
+
+8. Usuń kontener flask
+```
+sudo docker rm -f flask
+```
+
+9. Usuń kontener flask-app na podstawie labelki
+```
+sudo docker image rm -f --filter "label=engine=python"
+```
+
