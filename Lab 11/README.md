@@ -21,4 +21,12 @@ sudo docker run -d --name flask -p 5000:5000 flask-app:latest
 curl localhost:5000
 ```
 
-5. Sprawdź czy na liście 
+5. Poszukaj kontenera flask-app na podstawie nazwy
+```
+sudo docker ps -a --filter "name=flask-app"
+```
+
+6. Poszukaj kontenera flask-app na podstawie LABEL ustawionej w pliku Dockerfile
+```
+sudo docker ps -a --filter "label=engine=python"
+```
