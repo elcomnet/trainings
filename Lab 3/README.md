@@ -47,12 +47,12 @@ sudo docker exec ubuntu ls -la
 
 9. Czwarty kontener
 ```
-sudo docker run --name some-wordpress -d wordpress
+sudo docker run --name internal-wordpress -d wordpress
 ```
 
 10. Piąty kontener - wystaw na świat :)
 ```
-sudo docker run --name some-wordpress -d -p 8080:80 wordpress
+sudo docker run --name external-wordpress -d -p 8080:80 wordpress
 ```
 
 11. 5. Wyświetl wszystkie kontenery 
