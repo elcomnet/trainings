@@ -9,6 +9,7 @@ Sprawdź czy Docker działa
 ```
 sudo docker version
 ```
+![Dcoker Version](img/docker.jpg)
 
 ### Pobranie Lab-ów na maszynę wirtualną
 1. Instalacja GIT
