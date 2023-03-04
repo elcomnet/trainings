@@ -17,29 +17,29 @@ Do jego wykonania będzie potrzebne prywatne konto na Docker Hub
 sudo docker tag web-training-app <user_name_docker_hub>/web-training-app:latest
 ```
 
-2. Zaloguj się do Docker Hub
+3. Zaloguj się do Docker Hub
 ```
 sudo docker login
 ```
 
-3. Wyślij obraz do prwatnego repozytorium na Docker Hub
+4. Wyślij obraz do prwatnego repozytorium na Docker Hub
 ```
 sudo docker push <user_name_docker_hub>/web-training-app:latest
 ```
 
-4. Sprawdź na Docker Hub czy jest obraz web-training-app:latest
+5. Sprawdź na Docker Hub czy jest obraz web-training-app:latest
 
-5. Wyloguj z Docker Hub
+6. Wyloguj z Docker Hub
 ```
 sudo docker logout
 ```
 
-6. Usuń obraz z lokalnego repo
+7. Usuń obraz z lokalnego repo
 ```
 sudo docker image rm <user_name_docker_hub>/web-training-app:latest
 ```
 
-7. Spróbuj pobrać obraz z Prywatnego repozytorium
+8. Spróbuj pobrać obraz z Prywatnego repozytorium
 ```
 sudo docker pull <user_name_docker_hub>/web-training-app:latest
 ```
