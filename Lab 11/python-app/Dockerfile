@@ -1,5 +1,8 @@
 FROM python:3.8-slim-buster
 
+LABEL version="6.0"
+LABEL engine="python"
+
 WORKDIR /app
 
 COPY requirements.txt requirements.txt
