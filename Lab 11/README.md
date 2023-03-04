@@ -34,7 +34,7 @@ sudo docker ps -a --filter "label=engine=python"
 7. Poszukaj obrazu flask-app na podstawie LABEL ustawionej w pliku Dockerfile
 ```
 sudo docker images --filter "label=engine=python"
-``
+```
 
 8. Usuń kontener flask
 ```
