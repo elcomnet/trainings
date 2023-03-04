@@ -12,4 +12,13 @@ sudo docker build --tag flask-app .
 ```
 
 3. Uruchom aplikację Flask
-4. 
+```
+sudo docker run -d --name flask -p 5000:5000 flask-app:latest
+```
+
+4. Pokaż stronę
+```
+curl localhost:5000
+```
+
+5. Sprawdź czy na liście 
