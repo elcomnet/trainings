@@ -8,7 +8,7 @@
 
 2. Zbuduj obraz
 ```
-$$ sudo docker build --tag flask-app .
+sudo docker build --tag flask-app .
 ```
 
 3. Uruchom aplikację Flask
