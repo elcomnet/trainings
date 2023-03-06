@@ -10,7 +10,7 @@ Sprawdź czy Docker działa
 ```
 sudo docker version
 ```
-![Dcoker Version](img/lab1_1.png)
+![Docker Version](img/lab1_1.png)
 
 ### Pobranie Lab-ów na maszynę wirtualną
 
