@@ -3,21 +3,17 @@
 
 ### Instalacja Docker
 ```
-sudo apt-get install docker docker-compose
+sudo apt-get update
+sudo apt-get install docker docker-compose -y
 ```
 Sprawdź czy Docker działa
 ```
 sudo docker version
 ```
-![Dcoker Version](img/docker.png)
+![Dcoker Version](img/lab1_1.png)
 
 ### Pobranie Lab-ów na maszynę wirtualną
-1. Instalacja GIT
-```
-sudo apt-get git
-```
 
-2. Sklonuj repozytorium z GitHub
 ```
 sudo git clone https://github.com/elcomnet/docker-training.git
 ```
