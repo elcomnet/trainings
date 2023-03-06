@@ -33,5 +33,5 @@ sudo docker rm -f $(sudo docker ps -a -q)
 
 7. Usuń wszystkie obrazy
 ```
-sudo docker rmi -f $(docker images -q)
+sudo docker rmi -f $(sudo docker images -q)
 ```
