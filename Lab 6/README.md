@@ -29,11 +29,11 @@ cd ~/docker-training/Lab\ 6/
 sudo docker cp web/index.html web:/usr/local/apache2/htdocs/index.html
 ```
 Sprawdź w przeglądarce obecną treść strony
+![Docker](img/lab6_3.png)
 ![Docker](img/lab6_4.png)
-![Docker](img/lab6_5.png)
 
 5. Pobierz logi lub inne pliku z kontenera na maszynę wirtualną
 ```
 sudo docker cp web:/var/log/ /tmp/app_log
 ```
-![Docker](img/lab6_6.png)
+![Docker](img/lab6_5.png)
