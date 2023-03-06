@@ -4,6 +4,7 @@
 ```
 sudo docker run -dit --name web -p 8081:80 httpd:2.4
 ```
+![Docker](img/lab6_1.png)
 
 2. Wyświetl stronę www w przeglądarce
 ```
@@ -20,16 +21,19 @@ lub
 ```
 sudo docker exec web cat /usr/local/apache2/htdocs/index.html
 ```
+![Docker](img/lab6_2.png)
 
 4. Zmień plik index.html w kontenerze. Plik index.html znajduje się w katalogu web
 ```
+cd ~/docker-training/Lab\ 6/
 sudo docker cp web/index.html web:/usr/local/apache2/htdocs/index.html
 ```
 Sprawdź w przeglądarce obecną treść strony
-
+![Docker](img/lab6_4.png)
+![Docker](img/lab6_5.png)
 
 5. Pobierz logi lub inne pliku z kontenera na maszynę wirtualną
 ```
-sudo docker cp web:/var/logs/ /tmp/app_logs
+sudo docker cp web:/var/log/ /tmp/app_log
 ```
-
+![Docker](img/lab6_6.png)
