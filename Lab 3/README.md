@@ -67,8 +67,9 @@ sudo docker run --name external-wordpress -d -p 8080:80 wordpress
 ```
 ![Docker Containers](img/lab3_9.png)
 
-11. 5. Wyświetl wszystkie kontenery 
+11. Wyświetl wszystkie kontenery 
 Zwróć uwagę na nazwy kontenerów, porty, status.
+Zrób zrzut ekranu stanu kontenerów
 ```
 sudo docker ps -a
 ```
