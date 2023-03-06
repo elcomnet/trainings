@@ -28,7 +28,7 @@ sudo docker system prune
 
 6. Usuń wszystkie kontenery
 ```
-sudo docker rm -f $(docker ps -a -q)
+sudo docker rm -f $(sudo docker ps -a -q)
 ```
 
 7. Usuń wszystkie obrazy
