@@ -11,16 +11,25 @@ Zanotuj jakie są rozmiary dla OS linux/amd64
 2. Pobierz wszystkie powyższe obrazy używając poleceń na Docker Hub lub tych poniżej
  ```
  sudo docker pull python
+ ```
+ ```
  sudo docker pull python:3.11.1-alpine3.16
+ ```
+ ```
  sudo docker pull node:18.14.2
+ ```
+ ```
  sudo docker pull postgres:14.7-alpine
  ```
 
 3. Wyświetl wszystkie pobrane obrazy
 ```
 sudo docker images
+```
+```
 sudo docker image ls
 ```
+![Docker images](img/lab2_1.png)
 
 4. Porównaj wielkość obrazów między wielkością z Docker Hub i wielkością w Docker
 
@@ -28,16 +37,20 @@ sudo docker image ls
 ```
 sudo docker search busybox
 ```
+![Docker images](img/lab2_2.png)
 
 6. Usuń obraz python:3.11.1-alpine3.16
 ```
 sudo docker image rm python:3.11.1-alpine3.16
 ```
+![Docker images](img/lab2_3.png)
 
 7. Usuń obraz postgress na podstawie jego ID
 ```
 sudo docker image rm -f <ID>
 ```
+
+![Docker images](img/lab2_4.png)
 
 8. Wyświetl manifest obrazu node:18.14.2
 ```
