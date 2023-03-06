@@ -1,4 +1,4 @@
-# Budowa obrazu aplikacji Node,js
+# Budowa obrazu aplikacji Node.js
 Ćwiczenie pokaże w jaki sposób zbudować własną aplikację w Nodejs
 
 1. Utwórz aplikację lokalnie
