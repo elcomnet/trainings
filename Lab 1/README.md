@@ -4,7 +4,7 @@
 ### Instalacja Docker
 ```
 sudo apt-get update
-sudo apt-get install docker docker-compose -y
+sudo apt-get install docker docker-compose npm -y
 ```
 Sprawdź czy Docker działa
 ```
