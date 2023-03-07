@@ -3,12 +3,12 @@
 
 1. Utwórz aplikację lokalnie
 ```
-cd ~/docker-training/Lab 12/
-mkdir node-app
+cd ~/docker-training/Lab\ 12/
+sudo mkdir node-app
 cd node-app
-npm init -y
-npm install ronin-server ronin-mocks
-vi server.js
+sudo npm init -y
+sudo npm install ronin-server ronin-mocks
+sudo vi server.js
 ```
 Aplikacja server.js
 ```
@@ -20,11 +20,13 @@ const server = ronin.server()
 server.use('/', mocks.server(server.Router(), false, true))
 server.start()
 ```
+![Docker build](img/lab12_1.png)
 
 2. Utwórz plik Dockerfile
 ```
-# syntax=docker/dockerfile:1
-
+sudo vi Dockerfile
+```
+```
 FROM node:18-alpine
 ENV NODE_ENV=production
 
@@ -38,8 +40,12 @@ COPY . .
 
 CMD [ "node", "server.js" ]
 ```
+![Docker build](img/lab12_2.png)
 
 3. Utwórz plik ".dockerignore", w którym wpiszemy jakie katalogu mają być pomijane w trakcie budowania
+```
+sudo vi .dockerignore
+```
 ```
 node_modules
 ```
@@ -48,17 +54,20 @@ node_modules
 ```
 sudo docker build --tag node-docker .
 ```
+![Docker build](img/lab12_3.png)
 
 5. Uruchom kontener z aplikacją java-docker na porcie 8084
 ```
-sudo docker run -d --name node-app --publish 8085:8000 node-docker:latest
+sudo docker run -d --name node-app --publish 8086:8000 node-docker:latest
 ```
 
 9. Sprawdź czy aplikacja działa
 ```
 curl --request POST \
-  --url http://localhost:8085/test \
+  --url http://localhost:8086/test \
   --header 'content-type: application/json' \
   --data '{"msg": "testing"}'
 ```
 {"code":"success","payload":[{"msg":"testing","id":"dc0e2c2b-793d-433c-8645-b3a553ea26de","createDate":"2020-09-01T17:36:09.897Z"}]}
+
+![Docker build](img/lab12_4.png)
