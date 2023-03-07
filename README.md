@@ -1,21 +1,21 @@
 ﻿# docker-training
-- Lab 1: Konfiguracja serwera
-- Lab 2: Praca z obrazami kontenerowymi
-- Lab 3: Uruchamianie kontenerów
-- Lab 4: Zarządzanie kontenerami
+- [Lab 1: Konfiguracja serwera](https://github.com/elcomnet/docker-training/blob/main/Lab%201/README.md)
+- [Lab 2: Praca z obrazami kontenerowymi](https://github.com/elcomnet/docker-training/blob/main/Lab%202/README.md)
+- [Lab 3: Uruchamianie kontenerów](https://github.com/elcomnet/docker-training/blob/main/Lab%203/README.md)
+- [Lab 4: Zarządzanie kontenerami](https://github.com/elcomnet/docker-training/blob/main/Lab%204/README.md)
 - Lab 5:
-- Lab 6: Zarządzanie danymi w kontenerach
+- [Lab 6: Zarządzanie danymi w kontenerach](https://github.com/elcomnet/docker-training/blob/main/Lab%206/README.md)
 - Lab 7: 
-- Lab 8: Backup and Restore
-- Lab 9: Docker Clean up
-- Lab 10: Budowa własnego obrazu serwera www
-- Lab 11: Budowa obrazu aplikacji Python
-- Lab 12: Budowa obrazu aplikacji Node.js
-- Lab 13: Budowa obrazu aplikacji JAVA
+- [Lab 8: Backup and Restore](https://github.com/elcomnet/docker-training/blob/main/Lab%208/README.md)
+- [Lab 9: Docker Clean up](https://github.com/elcomnet/docker-training/blob/main/Lab%209/README.md)
+- [Lab 10: Budowa własnego obrazu serwera www](https://github.com/elcomnet/docker-training/blob/main/Lab%2010/README.md)
+- [Lab 11: Budowa obrazu aplikacji Python](https://github.com/elcomnet/docker-training/blob/main/Lab%2011/README.md)
+- [Lab 12: Budowa obrazu aplikacji Node.js](https://github.com/elcomnet/docker-training/blob/main/Lab%2012/README.md)
+- [Lab 13: Budowa obrazu aplikacji JAVA](https://github.com/elcomnet/docker-training/blob/main/Lab%2013/README.md)
 - Lab 14: 
-- Lab 15: Wersjonowanie aplikacji - Tagowanie
-- Lab 16: Uruchomienie własnego repozytorium obrazów
-- Lab 17: Wysłanie własnego obrazu do Docker Registry
-- Lab 18: Export obrazu na Docker Hub
-- Lab 19: Docker Network
-- Lab 20: Docker-compose
+- [Lab 15: Wersjonowanie aplikacji - Tagowanie](https://github.com/elcomnet/docker-training/blob/main/Lab%2015/README.md)
+- [Lab 16: Uruchomienie własnego repozytorium obrazów](https://github.com/elcomnet/docker-training/blob/main/Lab%2016/README.md)
+- [Lab 17: Wysłanie własnego obrazu do Docker Registry](https://github.com/elcomnet/docker-training/blob/main/Lab%2017/README.md)
+- [Lab 18: Export obrazu na Docker Hub](https://github.com/elcomnet/docker-training/blob/main/Lab%2018/README.md)
+- [Lab 19: Docker Network](https://github.com/elcomnet/docker-training/blob/main/Lab%2019/README.md)
+- [Lab 20: Docker-compose](https://github.com/elcomnet/docker-training/blob/main/Lab%2020/README.md)
