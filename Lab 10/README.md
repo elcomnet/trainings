@@ -4,7 +4,7 @@ Utworzysz własny obraz Docker będący serwerem www, zawierający twoją wersj�
 
 1. Utwórz plik Dockerfile
 ```
-cd docker-training/Lab\ 10/ 
+cd ~/docker-training/Lab\ 10/ 
 sudo vi Dockerfile
 ```
 ```
