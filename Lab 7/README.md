@@ -13,7 +13,7 @@ sudo docker inspect --size web -f '{{ .SizeRootFs }}'
 
 3. Pokaż zajętość dysku przez kontener "web" ale tylko dopisanych od czasu uruchomienia. 
 ```
-sudo docker inspect --size web -f '{{ .SizeRootFs }}'
+sudo docker inspect --size web -f '{{ .SizeRw }}'
 ```
 
 4. Pokaż konfigurację sieciową kontener "web"
