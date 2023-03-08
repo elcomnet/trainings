@@ -30,3 +30,9 @@ sudo docker ps -a --format '{{.Names}}\t{{.Status}}'
 ```
 sudo docker inspect --format='{{.Name}} {{.LogPath}}' $(sudo docker ps -qa)
 ```
+
+7. Sprawdź ile zajmuja wszystkie logi kontnerów
+```
+sudo su
+du -sh /var/lib/docker/containers/*/*-json.log
+```
