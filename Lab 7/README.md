@@ -1,4 +1,4 @@
-#Inspekcja kontenerów  
+# Inspekcja kontenerów 
 Ćwiczenie pokaże w jaki sposób uzyskać informacje o konfiguracji kontenerów i parametrach jego pracy.
 
 1. Pokaż pełną informację o kontenerze "web"
