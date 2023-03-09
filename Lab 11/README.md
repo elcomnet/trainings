@@ -5,6 +5,9 @@
 - Aplikacja Python: app.py
 - Plik requirements.txt
 - Dockerfile
+```
+cd ~/docker-training/Lab\ 11/python-app
+```
 
 2. Zbuduj obraz
 ```
