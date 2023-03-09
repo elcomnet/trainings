@@ -12,7 +12,7 @@
 - [Lab 11: Budowa obrazu aplikacji Python](https://github.com/elcomnet/docker-training/blob/main/Lab%2011/README.md)
 - [Lab 12: Budowa obrazu aplikacji Node.js](https://github.com/elcomnet/docker-training/blob/main/Lab%2012/README.md)
 - [Lab 13: Budowa obrazu aplikacji JAVA](https://github.com/elcomnet/docker-training/blob/main/Lab%2013/README.md)
-- Lab 14: 
+- [Lab 14: Multi-stage Dockerfile](https://github.com/elcomnet/docker-training/blob/main/Lab%2014/README.md)
 - [Lab 15: Wersjonowanie aplikacji - Tagowanie](https://github.com/elcomnet/docker-training/blob/main/Lab%2015/README.md)
 - [Lab 16: Uruchomienie własnego repozytorium obrazów](https://github.com/elcomnet/docker-training/blob/main/Lab%2016/README.md)
 - [Lab 17: Wysłanie własnego obrazu do Docker Registry](https://github.com/elcomnet/docker-training/blob/main/Lab%2017/README.md)
