@@ -23,3 +23,5 @@ sudo docker run -d --name multi -p 5100:80 multi:latest
 ```
 curl localhost:5100
 ```
+
+6. Przejdź do katalogu 'others' i obejrzyj inne przykłady plików Dockerfile Multistage
