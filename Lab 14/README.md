@@ -11,12 +11,12 @@ sudo git clone https://github.com/vigneshsweekaran/easyclaim-frontend.git
 
 3. Zbuduj obraz
 ```
-sudo docker build --tag multi-app:latest .
+sudo docker build --no-cache=true --tag multi-app:latest .
 ```
 
 4. Uruchom aplikację Flask
 ```
-sudo docker run -d --name multi -p 5100:80 multi:latest
+sudo docker run -d --name multi -p 5100:80 multi-app:latest
 ```
 
 5. Pokaż stronę
