@@ -38,7 +38,7 @@ sudo docker run -dit --name ubuntu ubuntu:20.04
 
 7. Wejdź do kontenera
 ```
-sudo docker exec -dit ubuntu /bin/bash
+sudo docker exec -it ubuntu /bin/bash
 ```
 Wykonaj kilka poleceń Linuxowych:
 - ls
