@@ -54,7 +54,7 @@ sudo docker rm -f external-wordpress
 8. Zaktualizuje parametr uruchomionego kontenera internal-wordpress
 Istnieje możliwość zmiany parametrów zgodnie z listę na stronie https://docs.docker.com/engine/reference/commandline/update/
 ```
-sudo docker update --memory 256M internal-wordpress
+sudo docker update --memory 128M --memory-swap 128M external-wordpress
 sudo docker update --restart always internal-wordpress
 ```
 
