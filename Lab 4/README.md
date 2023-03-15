@@ -39,9 +39,9 @@ sudo docker ps -a
 ```
 ![Docker Containers](img/lab4_5.png)
 
-6. Zatrzymaj kontener o nazwie internal-wordpress i sprawdź jego status na liście kontenerów
+6. Zatrzymaj kontener o nazwie external-wordpress i sprawdź jego status na liście kontenerów
 ```
-sudo docker container stop internal-wordpress
+sudo docker container stop external-wordpress
 ```
 ![Docker Containers](img/lab4_6.png)
 
