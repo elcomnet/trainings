@@ -47,5 +47,6 @@ sudo docker inspect --format='{{.Name}} {{.LogPath}}' $(sudo docker ps -qa)
 ```
 sudo su
 du -sh /var/lib/docker/containers/*/*-json.log
+exit
 ```
 ![Docker Inspect](img/lab5_8.png)
