@@ -4,7 +4,7 @@
 1. Utwórz katalog z zawartością strony www
 ```
 sudo mkdir /strona
-sudo cp -rf ~/docker-training/Lab\ 7/web/ /strona
+sudo cp -rf ~/docker-training/Lab\ 7/web/index.html /strona
 ll /strona
 ```
 ![Docker Wolumen](img/lab7_1.png)
