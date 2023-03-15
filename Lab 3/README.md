@@ -48,7 +48,7 @@ Wykonaj kilka poleceń Linuxowych:
 Na końcu wyjdź z kontenera poleceniem 'exit'
 ![Docker Containers](img/lab3_6.png)
 
-8. Uruchom poleceń "la -ls " w kontenerze bez wchodzenia do niego
+8. Uruchom poleceń "ls -la " w kontenerze bez wchodzenia do niego
 ```
 sudo docker exec ubuntu ls -la /dev
 ```
