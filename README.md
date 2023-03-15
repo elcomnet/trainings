@@ -5,7 +5,7 @@
 - [Lab 4: Zarządzanie kontenerami](https://github.com/elcomnet/docker-training/blob/main/Lab%204/README.md)
 - [Lab 5: Inspekcja kontenerów](https://github.com/elcomnet/docker-training/blob/main/Lab%205/README.md)
 - [Lab 6: Zarządzanie danymi w kontenerach](https://github.com/elcomnet/docker-training/blob/main/Lab%206/README.md)
-- [Lab 7: Wolumeny](https://github.com/elcomnet/docker-training/blob/main/Lab%204/README.md)
+- [Lab 7: Wolumeny](https://github.com/elcomnet/docker-training/blob/main/Lab%207/README.md)
 - [Lab 8: Backup and Restore](https://github.com/elcomnet/docker-training/blob/main/Lab%208/README.md)
 - [Lab 9: Docker Clean up](https://github.com/elcomnet/docker-training/blob/main/Lab%209/README.md)
 - [Lab 10: Budowa własnego obrazu serwera www](https://github.com/elcomnet/docker-training/blob/main/Lab%2010/README.md)
