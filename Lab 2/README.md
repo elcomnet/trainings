@@ -13,7 +13,7 @@ Zanotuj jakie są rozmiary dla OS linux/amd64
  sudo docker pull python
  ```
  ```
- sudo docker pull python:3.11.1-alpine3.16
+ sudo docker pull python:3.11.1-alpine3.17
  ```
  ```
  sudo docker pull node:18.14.2
