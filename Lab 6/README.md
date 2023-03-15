@@ -16,6 +16,8 @@ curl http://localhost:8081
 sudo docker exec -it web /bin/bash
 
 # cat /usr/local/apache2/htdocs/index.html
+
+exit
 ```
 lub
 ```
