@@ -4,7 +4,7 @@
 - python w ostatniej wersji
 - python w wersji 3.11.1 opartej o Linux alpine 3.17
 - nodejs w wersji 18.14.2
-- python w wersji 14.7 na Linux Alpine
+- postgres w wersji 14.7 na Linux Alpine
 
 Zanotuj jakie są rozmiary dla OS linux/amd64
 
