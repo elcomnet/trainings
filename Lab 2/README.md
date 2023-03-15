@@ -2,7 +2,7 @@
 
 1. Wejdź na stronę https://hub.docker.com/ i znajdź następujące obrazy
 - python w ostatniej wersji
-- python w wersji 3.11.1 opartej o Linux alpine 3.17
+- python w wersji 3.11.1 opartej o Linux alpine 3.16
 - nodejs w wersji 18.14.2
 - postgres w wersji 14.7 na Linux Alpine
 
@@ -13,7 +13,7 @@ Zanotuj jakie są rozmiary dla OS linux/amd64
  sudo docker pull python
  ```
  ```
- sudo docker pull python:3.11.1-alpine3.17
+ sudo docker pull python:3.11.1-alpine3.16
  ```
  ```
  sudo docker pull node:18.14.2
