@@ -35,5 +35,6 @@ Sprawdź w przeglądarce obecną treść strony
 5. Pobierz logi lub inne pliku z kontenera na maszynę wirtualną
 ```
 sudo docker cp web:/var/log/ /tmp/app_log
+sudo ll /tmp/app_log
 ```
 ![Docker](img/Lab6_5.png)
