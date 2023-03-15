@@ -8,7 +8,7 @@ sudo docker run -dit --name web -p 8081:80 httpd:2.4
 
 2. Wyświetl stronę www w przeglądarce
 ```
-http://<IP>:8081
+curl http://localhost:8081
 ```
 
 3. Wyświetl index.html z kontenera 'web'
