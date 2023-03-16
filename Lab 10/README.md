@@ -47,7 +47,7 @@ sudo docker images
 
 6. Uruchom kontener korzystając z własnego obrazu
 ```
-sudo docker run -dit --name web2 -p 8085:80 my-web:latest
+sudo docker run -dit --name web2 -p 8082:80 my-web:latest
 ```
 ![Docker Build](img/lab10_5.png)
 
