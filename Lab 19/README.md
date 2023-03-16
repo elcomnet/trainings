@@ -37,7 +37,7 @@ sudo docker network connect bridge alpine4
 
 6. Wyświetl kontenery i ich adresy IP
 ```
-$sudo docker ps -q | xargs -I [] sudo docker inspect -f '{{.Name}}: {{range.NetworkSettings.Networks}}{{.IPAddress}} {{end}}' []
+sudo docker ps -q | xargs -I [] sudo docker inspect -f '{{.Name}}: {{range.NetworkSettings.Networks}}{{.IPAddress}} {{end}}' []
 
 /alpine4: 172.18.0.4 172.17.0.3 
 /alpine3: 172.17.0.2 
