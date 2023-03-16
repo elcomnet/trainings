@@ -34,5 +34,5 @@ sudo docker-compose down
 5. Uruchom klaster Apache Kafka (opcjonalnie)
 ```
 cd ../kafka_compose
-docker-compose up -d
+sudo docker-compose up -d
 ``` 
