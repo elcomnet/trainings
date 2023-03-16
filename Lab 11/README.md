@@ -46,6 +46,6 @@ sudo docker images --filter "label=engine=python"
 
 8. Usuń kontener flask
 ```
-sudo docker rm -f flask
+sudo docker rm -f flask-app
 ```
 
