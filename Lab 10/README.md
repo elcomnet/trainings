@@ -24,8 +24,8 @@ sudo vi index.html
   <title>Docker Workshop</title>
 </head>
 <body>
-  <h1>Docker Workshop</h1
-    <3>Lab 10</h3>
+  <h1>Docker Workshop</h1>
+    <h3>Lab 10</h3>
     <p>Budowa własnego obrazu serwera www</p>
   
 </body>
