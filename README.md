@@ -19,3 +19,4 @@
 - [Lab 18: Export obrazu na Docker Hub](https://github.com/elcomnet/docker-training/blob/main/Lab%2018/README.md)
 - [Lab 19: Docker Network](https://github.com/elcomnet/docker-training/blob/main/Lab%2019/README.md)
 - [Lab 20: Docker-compose](https://github.com/elcomnet/docker-training/blob/main/Lab%2020/README.md)
+- [Lab 21: Docker GUI](https://github.com/elcomnet/docker-training/blob/main/Lab%2021/README.md)
