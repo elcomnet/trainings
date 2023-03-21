@@ -67,9 +67,4 @@ sudo docker logs internal-wordpress --tail 2
 ```
 ![Docker Containers](img/lab4_7.png)
 
-10. Wyświetl eventy dla kontenera internal-wordpress
-```
-sudo docker events --filter 'container=internal-wordpress'
-```
-
 
