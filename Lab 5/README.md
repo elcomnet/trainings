@@ -19,8 +19,9 @@ sudo docker inspect --size internal-wordpress -f '{{ .SizeRw }}'
 ```
 ![Docker Inspect](img/lab5_3.png)
 
-4. Pokaż konfigurację sieciową kontenera "internal-wordpress"
+4. Pokaż MAC adres kontenera "internal-wordpress"
 ```
+sudo docker start internal-wordpress
 sudo docker inspect --format='{{range .NetworkSettings.Networks}}{{.MacAddress}}{{end}}' internal-wordpress
 ```
 ![Docker Inspect](img/lab5_4.png)
