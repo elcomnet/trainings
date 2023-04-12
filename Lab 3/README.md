@@ -6,7 +6,7 @@ sudo docker run hello-world
 ```
 ![Docker Containers](img/lab3_1.png)
 
-2. Wyświetl listę działających kontenerów. Czy kontener busybox jest na liscie? Jaką ma nazwę?
+2. Wyświetl listę działających kontenerów. Czy kontener hello-world jest na liscie? Jaką ma nazwę?
 ```
 sudo docker ps
 ```
