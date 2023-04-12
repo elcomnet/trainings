@@ -35,28 +35,28 @@ ll
 sudo docker rm -f app-www
 ```
 
-6. Usuń obraz www3
+7. Usuń obraz www3
 ```
 sudo docker image rm -f www3:v1
 ```
 
-7. Przywróć obraz www3:v1 z pliku
+8. Przywróć obraz www3:v1 z pliku
 ```
 sudo docker load --input www3-image.tar
 ```
 ![Docker](img/lab8_4.png)
 
-8. Wyświetl listę obrazów i sprawdź czy znajduje się na niej wczytany obraz
+9. Wyświetl listę obrazów i sprawdź czy znajduje się na niej wczytany obraz
 ```
 ???
 ```
 
-9. Importuj kontener z pliku
+10. Importuj kontener z pliku
 ```
 sudo docker import www3-container.tar
 ```
 
-10. Wyświetl listę kontenerów i sprawdź czy znajduje się na niej zaimportowany kontener
+11. Wyświetl listę kontenerów i sprawdź czy znajduje się na niej zaimportowany kontener
 ```
 ???
 ```
