@@ -9,13 +9,13 @@ sudo docker inspect internal-wordpress
 
 2. Pokaż zajętość dysku przez kontener "internal-wordpress"
 ```
-sudo docker inspect --size internal-wordpress -f '{{ .SizeRootFs }}'
+sudo docker inspect --size -f '{{ .SizeRootFs }}' internal-wordpress
 ```
 ![Docker Inspect](img/lab5_2.png)
 
 3. Pokaż zajętość dysku przez kontener "internal-wordpress" ale tylko dopisanych od czasu uruchomienia. 
 ```
-sudo docker inspect --size internal-wordpress -f '{{ .SizeRw }}'
+sudo docker inspect --size -f '{{ .SizeRw }}' internal-wordpress
 ```
 ![Docker Inspect](img/lab5_3.png)
 
