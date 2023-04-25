@@ -34,7 +34,7 @@ sudo docker inspect --format='{{json .NetworkSettings}}' internal-wordpress
 
 6. Pokaż Nazwę kontenera oraz status dla wszystkich kontenerów
 ```
-sudo docker ps -a --format '{{.Name}}\t{{.Status}}'
+sudo docker ps -a --format '{{.Names}}\t{{.Status}}'
 ```
 ![Docker Inspect](img/lab5_6.png)
 
