@@ -56,7 +56,7 @@ sudo docker build --tag node-docker .
 ```
 ![Docker build](img/lab12_3.png)
 
-5. Uruchom kontener z aplikacją java-docker na porcie 8086
+5. Uruchom kontener z aplikacją node-app na porcie 8086
 ```
 sudo docker run -d --name node-app --publish 8086:8000 node-docker:latest
 ```
