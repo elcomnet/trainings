@@ -1,5 +1,5 @@
 # Docker Network
-Zadaniem będzie utworeznie nowej sieci (Custom Network), uruchomienie w niej kontenerów oraz sprawdzenie możliwości komunikacji między kontenerami w tej samej sieci i między sieciami.
+Zadaniem będzie utworzenie nowej sieci (Custom Network), uruchomienie w niej kontenerów oraz sprawdzenie możliwości komunikacji między kontenerami w tej samej sieci i między sieciami.
 
 ![Network](network.png)
 
