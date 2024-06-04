@@ -33,8 +33,6 @@ In this task, you create a core services virtual network with a virtual machine.
     | Password | **Provide a complex password** |
     | Public inbound ports | **None** |
 
-    ![Screenshot of Basic virtual machine creation page. ](../media/az104-lab05-createcorevm.png)
-   
 1. On the **Disks** tab take the defaults and then select **Next: Networking >**.
 
 1. On the **Networking** tab, for Virtual network, select **Create new**.
