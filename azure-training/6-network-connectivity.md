@@ -179,10 +179,10 @@ In this task, you retest the connection between the virtual machines in differen
 
 1. In the **Operations** blade, select the **Run command** blade.
 
-1. Select **RunPowerShellScript** and run the **Test-NetConnection** command. Be sure to use the private IP address of the **vm-core-student-X**.
+1. Select **RunPowerShellScript** and run the **Test-NetConnection** command. Be sure to use the private IP address of the **vm-manu-student-X**.
 
     ```Powershell
-    Test-NetConnection <vm-core-student-X private IP address> -port 3389
+    Test-NetConnection <vm-manu-student-X private IP address> -port 22
     ```
 1. It may take a couple of minutes for the script to time out. The top of the page shows an informational message *Script execution in progress.*
 
