@@ -21,7 +21,7 @@ In this task, you create an Azure web app. Azure App Services is a Platform As a
     | Setting | Value |
     | --- | ---|
     | Subscription | your Azure subscription |
-    | Resource group | `woskshop-X` |
+    | Resource group | `workshop-X` |
     | Web app name | any globally unique name |
     | Publish | **Code** |
     | Runtime stack | **PHP 8.2** |
