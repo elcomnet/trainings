@@ -127,7 +127,7 @@ In this task, you will implement Azure virtual-machine level backup. As part of 
 
 1. Click **OK** to create the policy and then, in the **Virtual Machines** section, select **Add**.
 
-1. On the **Select virtual machines** blade, select **az-104-10-vm0**, click **OK**, and then back on the **Backup** blade, click **Enable backup**.
+1. On the **Select virtual machines** blade, select **vm-student-X**, click **OK**, and then back on the **Backup** blade, click **Enable backup**.
 
     >**Note**: Wait for the backup to be enabled. This should take approximately 2 minutes.
 
