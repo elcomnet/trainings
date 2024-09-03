@@ -1,4 +1,4 @@
-# Lab 9 - Scaling Virtual Machines
+# Lab 8 - Scaling Virtual Machines
 
 ## Lab introduction
 
