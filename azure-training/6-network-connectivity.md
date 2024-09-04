@@ -77,7 +77,7 @@ In this task, you create a manufacturing services virtual network with a virtual
     | Authentication type | 'Password' |
     | Username | `localadmin` | 
     | Password | **Provide a complex password** |
-    | Public inbound ports | **None** |
+    | Public inbound ports | **22** |
 
 1. On the **Disks** tab take the defaults and then select **Next: Networking >**.
 
